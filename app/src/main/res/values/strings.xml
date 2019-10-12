@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">codingninja</string>
+    <string name="attendance">attendance</string>
+    <string name="wall">wall</string>
+    <string name="timetable">timetable</string>
+    <string name="blank">blank</string>
+</resources>
