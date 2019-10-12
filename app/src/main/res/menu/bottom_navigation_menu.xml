@@ -9,7 +9,7 @@
     <item
         android:id="@+id/navigation_calender"
         android:icon="@drawable/feedicon1"
-        android:title="Feed"/>
+        android:title="Attendance"/>
 
     <item
         android:id="@+id/navigation_attendance"
@@ -19,5 +19,5 @@
     <item
         android:id="@+id/navigation_profile"
         android:icon="@drawable/moreicon1"
-        android:title="More"/>
+        android:title="Marks"/>
 </menu>
