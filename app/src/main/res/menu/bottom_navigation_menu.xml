@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/navigation_calender"
+        android:icon="@drawable/feedicon1"
+        android:title="Attendance"/>
+
+    <item
+        android:id="@+id/navigation_attendance"
+        android:icon="@drawable/timetableicon1"
+        android:title="TimeTable"/>
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/moreicon1"
+        android:title="Marks"/>
+</menu>
