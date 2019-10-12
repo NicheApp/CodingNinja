@@ -1,7 +1,6 @@
 package com.exampledev.cnproj1
 
 
-import androidx.*
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4
 
