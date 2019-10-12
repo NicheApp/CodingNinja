@@ -1,19 +1,417 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Calender"
-    >
 
-    <TextView
-        android:id="@+id/textView2"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Attendance"
-        android:textAlignment="center"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:textColor="@color/clicked"/>
 
-</FrameLayout>
+        android:background="@drawable/back1"
+        >
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@color/card1"
+            app:cardCornerRadius="32dp">
+
+            <TextView
+                android:id="@+id/M1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:text="    18MAB201T                              82% "
+                android:textColor="#728DDF"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:id="@+id/M2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:text="     50          41             9                 4"
+                android:textColor="#728DDF"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:id="@+id/M3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="95dp"
+                android:text="    Total    present   Absent   Can Bunk"
+                android:textColor="#728DDF"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="    Transform Boundary Value Problems"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="#A5B8F1"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="32dp"
+            app:cardBackgroundColor="@color/card1">
+
+            <TextView
+                android:id="@+id/M4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:text="    18PDM201L                              82% "
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+
+            <TextView
+                android:id="@+id/M5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:text="     50          41             9                 4"
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+            <TextView
+                android:id="@+id/M6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="95dp"
+                android:text="    Total    present   Absent   Can Bunk"
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="    Competencies in Social Skills"
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@color/card1"
+            app:cardCornerRadius="32dp">
+
+            <TextView
+                android:id="@+id/M7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:text="    18PDH102T                              82% "
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+
+            <TextView
+                android:id="@+id/M8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:text="     50          41             9                 4"
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+
+            <TextView
+                android:id="@+id/M9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="95dp"
+                android:text="    Total    present   Absent   Can Bunk"
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="  Management Principles For Engineers"
+                android:textColor="#F8F2F8"
+                android:textSize="16sp"
+                app:fontFamily="@font/aldrich"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="32dp"
+            app:cardBackgroundColor="@color/card1">
+
+            <TextView
+                android:id="@+id/M10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:text="    18CSC202J                              82% "
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+
+            <TextView
+                android:id="@+id/M11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:text="     50          41             9                 4"
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+            <TextView
+                android:id="@+id/M12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="95dp"
+                android:text="    Total    present   Absent   Can Bunk"
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="   Object Oriented Design And Programming"
+                android:textColor="#F8F2F8"
+                android:textSize="16sp"
+                app:fontFamily="@font/aldrich"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="32dp"
+            app:cardBackgroundColor="@color/card1">
+
+            <TextView
+                android:id="@+id/M13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:text="    18CSC203J                              82% "
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+
+            <TextView
+                android:id="@+id/M14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:text="     50          41             9                 4"
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+            <TextView
+                android:id="@+id/M15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="95dp"
+                android:text="    Total    present   Absent   Can Bunk"
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="   Computer Organization And Architecture"
+                android:textColor="#F8F2F8"
+                android:textSize="16sp"
+                app:fontFamily="@font/aldrich"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="32dp"
+            app:cardBackgroundColor="@color/card1">
+
+            <TextView
+                android:id="@+id/M16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:text="    18BTB101T                              82% "
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+
+            <TextView
+                android:id="@+id/M17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:text="     50          41             9                 4"
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+            <TextView
+                android:id="@+id/M18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="95dp"
+                android:text="    Total    present   Absent   Can Bunk"
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="    Biology"
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="32dp"
+            app:cardBackgroundColor="@color/card1">
+
+            <TextView
+                android:id="@+id/M19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:text="    18CSS201J                              82% "
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+
+            <TextView
+                android:id="@+id/M20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:text="     50          41             9                 4"
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+            <TextView
+                android:id="@+id/M21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="95dp"
+                android:text="    Total    present   Absent   Can Bunk"
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="    Analog And Digital Electronics "
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="32dp"
+            app:cardBackgroundColor="@color/card1">
+
+            <TextView
+                android:id="@+id/M22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:text="    18CSC201J                              82% "
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+
+            <TextView
+                android:id="@+id/M23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:text="     50          41             9                 4"
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+            <TextView
+                android:id="@+id/M24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="95dp"
+                android:text="    Total    present   Absent   Can Bunk"
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="    Data Structures And Algorithms"
+                android:textColor="#F8F2F8"
+                android:textSize="18sp"
+                app:fontFamily="@font/aldrich"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
