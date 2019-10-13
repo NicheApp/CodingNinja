@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.ClipData;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     Calender calenderFragment = new Calender();
     Attendance attendanceFragment = new Attendance();
     Profile profileFragment = new Profile();
+    offers offersFragment = new offers();
 
 
     @Override
@@ -45,7 +47,9 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                 getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.fade_in, R.anim.fade_out).replace(R.id.container,homeFragment).commit();
                 return true;
 
-
+            case R.id.navigation_offers:
+                getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.fade_in, R.anim.fade_out).replace(R.id.container,offersFragment).commit();
+                return true;
         }
 
         return false;

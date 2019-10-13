@@ -21,9 +21,9 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="8dp"
             app:cardBackgroundColor="@color/card1"
-            app:cardCornerRadius="32dp">
+            app:cardCornerRadius="16dp">
 
             <TextView
                 android:id="@+id/M1"
@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="45dp"
                 android:text="    18MAB201T                              82% "
-                android:textColor="#728DDF"
+                android:textColor="#EEEEEE"
                 android:textSize="18sp"
                 app:fontFamily="@font/aldrich" />
 
@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="70dp"
                 android:text="     50          41             9                 4"
-                android:textColor="#728DDF"
+                android:textColor="#EEEEEE"
                 android:textSize="18sp"
                 app:fontFamily="@font/aldrich" />
 
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="95dp"
                 android:text="    Total    present   Absent   Can Bunk"
-                android:textColor="#728DDF"
+                android:textColor="#EEEEEE"
                 android:textSize="18sp"
                 app:fontFamily="@font/aldrich" />
 
@@ -62,7 +62,7 @@
                 android:layout_marginTop="16dp"
                 android:text="    Transform Boundary Value Problems"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-                android:textColor="#A5B8F1"
+                android:textColor="#EEEEEE"
                 android:textSize="18sp"
                 app:fontFamily="@font/aldrich" />
 
@@ -71,11 +71,11 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            app:cardCornerRadius="32dp"
+            app:cardCornerRadius="16dp"
             app:cardBackgroundColor="@color/card1">
 
             <TextView
@@ -122,11 +122,11 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="8dp"
             app:cardBackgroundColor="@color/card1"
-            app:cardCornerRadius="32dp">
+            app:cardCornerRadius="16dp">
 
             <TextView
                 android:id="@+id/M7"
@@ -172,11 +172,11 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            app:cardCornerRadius="32dp"
+            app:cardCornerRadius="16dp"
             app:cardBackgroundColor="@color/card1">
 
             <TextView
@@ -221,11 +221,11 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            app:cardCornerRadius="32dp"
+            app:cardCornerRadius="16dp"
             app:cardBackgroundColor="@color/card1">
 
             <TextView
@@ -270,11 +270,11 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            app:cardCornerRadius="32dp"
+            app:cardCornerRadius="16dp"
             app:cardBackgroundColor="@color/card1">
 
             <TextView
@@ -319,11 +319,11 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            app:cardCornerRadius="32dp"
+            app:cardCornerRadius="16dp"
             app:cardBackgroundColor="@color/card1">
 
             <TextView
@@ -368,11 +368,11 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            app:cardCornerRadius="32dp"
+            app:cardCornerRadius="16dp"
             app:cardBackgroundColor="@color/card1">
 
             <TextView
