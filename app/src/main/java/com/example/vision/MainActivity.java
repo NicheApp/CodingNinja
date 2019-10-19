@@ -35,10 +35,10 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         switch (menuItem.getItemId()){
             case R.id.navigation_calender:
-                getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.fade_in, R.anim.fade_out).replace(R.id.container,calenderFragment).commit();
+                getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.fade_in, R.anim.fade_out).replace(R.id.container,attendanceFragment).commit();
                 return true;
             case R.id.navigation_attendance:
-                getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.fade_in, R.anim.fade_out).replace(R.id.container,attendanceFragment).commit();
+                getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.fade_in, R.anim.fade_out).replace(R.id.container,calenderFragment).commit();
                 return true;
             case R.id.navigation_profile:
                 getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.fade_in, R.anim.fade_out).replace(R.id.container,profileFragment).commit();

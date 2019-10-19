@@ -8,13 +8,13 @@
 
     <item
         android:id="@+id/navigation_calender"
-        android:icon="@drawable/feedicon1"
-        android:title="Attendance"/>
+        android:icon="@drawable/timetableicon1"
+        android:title="TimeTable"/>
 
     <item
         android:id="@+id/navigation_attendance"
-        android:icon="@drawable/timetableicon1"
-        android:title="TimeTable"/>
+        android:icon="@drawable/feedicon1"
+        android:title="Attendance"/>
 
     <item
         android:id="@+id/navigation_profile"
